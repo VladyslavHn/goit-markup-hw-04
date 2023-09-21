@@ -333,6 +333,10 @@ gap: 24px;
     fill: #404BBF;
 }
 
+.soc-link:focus .soc-icon {
+    fill: #404BBF;
+}
+
 .section-team{
     background-color: #F4F4FD;
     padding: 120px 0;
@@ -548,22 +552,17 @@ box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
 }
 
 .footer-soc-icon{
-    fill: #f4f4fd;
+    fill: #4d5ae5;
 }
 
-.footer-soc-link:hover{
+.footer-soc-icon:hover{
     fill: #31D0AA;
 }
 
-.footer-soc-link:focus{
+.footer-soc-icon:focus{
     fill: #31D0AA;
 }
 
-.footer-socitem {
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-soc-link {
-    background-color: #4d5ae5;
-    border-radius: 50%;
+.footer-soc-icon {
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
